@@ -20,17 +20,13 @@ const provider = new ethers.JsonRpcProvider(process.env.BASE_SEPOLIA_RPC);
 
 
   return {
-    image: (
-      <div
-        tw='w-full h-full flex items-center justify-center'
-        style={{
-          backgroundImage: `url('https://social-rank.vercel.app/score.png')`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "1180 590",
-        }}
-      >
-       
+    image:(
+      <div tw="flex flex-col gap-3 p-5 items-center justify-center text-center w-full h-full bg-neutral-800">
+        <h1 tw="text-[5rem] text-sky-300 font-bold">Welcome to Quinn</h1>
+        <p tw="text-[2rem] text-amber-200 font-semibold px-32">
+          Quinn is an arena for Moxie Fans to place wager on contests and earn
+          banger rewards.
+        </p>
       </div>
     ),
     buttons: [

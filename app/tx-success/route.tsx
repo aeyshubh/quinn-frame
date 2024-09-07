@@ -14,10 +14,10 @@ const frames = createFrames({
   const VERCEL_URL = process.env.VERCEL_URL;
 export const POST = frames(async (ctx) => {
     return {
-        image: `https://social-rank.vercel.app/end.png`,
+        image: `https://media.makeameme.org/created/mission-completed-5a4d12.jpg`,
         buttons: [
           <Button action='post' target={`${VERCEL_URL}`}>
-            Go Back
+            Play Again!
           </Button>,
         ],
       };
@@ -28,7 +28,7 @@ export const GET = frames(async (ctx) => {
         image: `https://social-rank.vercel.app/end.png`,
         buttons: [
           <Button action='post' target={`${VERCEL_URL}`}>
-            Go Back
+            Play Again!
           </Button>,
         ],
       };

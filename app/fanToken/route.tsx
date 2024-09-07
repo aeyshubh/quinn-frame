@@ -1,6 +1,6 @@
 
 import { VERCEL_URL } from "@/consts";
-import { createFrames, Button,textInput } from "frames.js/next";
+import { createFrames, Button } from "frames.js/next";
 import { gql, GraphQLClient } from "graphql-request";
 import { init } from "@airstack/node";
 import {ethers} from "ethers";
